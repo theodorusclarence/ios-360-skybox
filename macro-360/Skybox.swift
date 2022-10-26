@@ -18,7 +18,7 @@ struct Skybox: UIViewRepresentable {
         let config = AROrientationTrackingConfiguration()
         arView.session.run(config)
 
-        let skyboxName = "aerodynamics_workshop"
+        let skyboxName = "aphrodite"
         let skyboxResource = try! EnvironmentResource.load(named: skyboxName)
         arView.environment.lighting.resource = skyboxResource
         arView.environment.background = .skybox(skyboxResource)

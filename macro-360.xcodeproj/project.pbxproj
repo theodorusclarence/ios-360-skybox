@@ -13,6 +13,7 @@
 		11E385792907C86C00220673 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E385782907C86C00220673 /* Preview Assets.xcassets */; };
 		11E385802907CBD500220673 /* aerodynamics_workshop.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 11E3857F2907CBD500220673 /* aerodynamics_workshop.skybox */; };
 		11E385842907D69300220673 /* Skybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E385832907D69300220673 /* Skybox.swift */; };
+		11E385A72907E51F00220673 /* aphrodite.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 11E385A62907E51F00220673 /* aphrodite.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		11E385782907C86C00220673 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11E3857F2907CBD500220673 /* aerodynamics_workshop.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = aerodynamics_workshop.skybox; sourceTree = "<group>"; };
 		11E385832907D69300220673 /* Skybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skybox.swift; sourceTree = "<group>"; };
+		11E385A62907E51F00220673 /* aphrodite.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = aphrodite.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		11E385702907C86C00220673 /* macro-360 */ = {
 			isa = PBXGroup;
 			children = (
+				11E385A62907E51F00220673 /* aphrodite.skybox */,
 				11E385712907C86C00220673 /* macro_360App.swift */,
 				11E385732907C86C00220673 /* ContentView.swift */,
 				11E385752907C86C00220673 /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 			files = (
 				11E385802907CBD500220673 /* aerodynamics_workshop.skybox in Resources */,
 				11E385792907C86C00220673 /* Preview Assets.xcassets in Resources */,
+				11E385A72907E51F00220673 /* aphrodite.skybox in Resources */,
 				11E385762907C86C00220673 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
